@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B9A18BA21DD0847800352DE6 /* T21MaterialTextField.podspec in Resources */ = {isa = PBXBuildFile; fileRef = B9A18BA11DD0847800352DE6 /* T21MaterialTextField.podspec */; };
 		B9EA1E241DCCA23800FAEBEB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9EA1E231DCCA23800FAEBEB /* AppDelegate.swift */; };
 		B9EA1E261DCCA23800FAEBEB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9EA1E251DCCA23800FAEBEB /* ViewController.swift */; };
 		B9EA1E291DCCA23800FAEBEB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9EA1E271DCCA23800FAEBEB /* Main.storyboard */; };
@@ -21,6 +22,7 @@
 		495F86A02697BE4E50FCEE44 /* Pods_T21MaterialTextField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_T21MaterialTextField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FE80FC35D9F54D9A67C6456 /* Pods-T21MaterialTextField.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-T21MaterialTextField.debug.xcconfig"; path = "Pods/Target Support Files/Pods-T21MaterialTextField/Pods-T21MaterialTextField.debug.xcconfig"; sourceTree = "<group>"; };
 		79B7E30073A435604B9566B0 /* Pods-T21MaterialTextField.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-T21MaterialTextField.release.xcconfig"; path = "Pods/Target Support Files/Pods-T21MaterialTextField/Pods-T21MaterialTextField.release.xcconfig"; sourceTree = "<group>"; };
+		B9A18BA11DD0847800352DE6 /* T21MaterialTextField.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = T21MaterialTextField.podspec; sourceTree = "<group>"; };
 		B9EA1E201DCCA23800FAEBEB /* T21MaterialTextField.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = T21MaterialTextField.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9EA1E231DCCA23800FAEBEB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B9EA1E251DCCA23800FAEBEB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -28,7 +30,7 @@
 		B9EA1E2A1DCCA23800FAEBEB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B9EA1E2D1DCCA23800FAEBEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B9EA1E2F1DCCA23800FAEBEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B9EA1E351DCCA2C300FAEBEB /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		B9EA1E351DCCA2C300FAEBEB /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B9EA1E381DCCA73900FAEBEB /* T21MaterialTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = T21MaterialTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -65,11 +67,12 @@
 			isa = PBXGroup;
 			children = (
 				B9EA1E371DCCA70200FAEBEB /* src */,
-				B9EA1E351DCCA2C300FAEBEB /* Podfile */,
 				B9EA1E221DCCA23800FAEBEB /* T21MaterialTextField */,
 				B9EA1E211DCCA23800FAEBEB /* Products */,
 				8255B56FC9B95D6CA65B24B4 /* Pods */,
 				5E637C46DDDA620FDD3BDBA2 /* Frameworks */,
+				B9A18BA11DD0847800352DE6 /* T21MaterialTextField.podspec */,
+				B9EA1E351DCCA2C300FAEBEB /* Podfile */,
 			);
 			sourceTree = "<group>";
 		};
@@ -166,6 +169,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9A18BA21DD0847800352DE6 /* T21MaterialTextField.podspec in Resources */,
 				B9EA1E2E1DCCA23800FAEBEB /* LaunchScreen.storyboard in Resources */,
 				B9EA1E2B1DCCA23800FAEBEB /* Assets.xcassets in Resources */,
 				B9EA1E361DCCA2C300FAEBEB /* Podfile in Resources */,

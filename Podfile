@@ -9,7 +9,7 @@ target 'T21MaterialTextField' do
     #Dependencies for the primary target (the main app or the main library)
     use_frameworks!
 
-    pod 'Material' , '~>2'
+    pod 'Material' , '~>2.0'
 end
 
 post_install do |installer|
