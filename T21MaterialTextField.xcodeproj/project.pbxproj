@@ -1,0 +1,404 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B9EA1E241DCCA23800FAEBEB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9EA1E231DCCA23800FAEBEB /* AppDelegate.swift */; };
+		B9EA1E261DCCA23800FAEBEB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9EA1E251DCCA23800FAEBEB /* ViewController.swift */; };
+		B9EA1E291DCCA23800FAEBEB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9EA1E271DCCA23800FAEBEB /* Main.storyboard */; };
+		B9EA1E2B1DCCA23800FAEBEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9EA1E2A1DCCA23800FAEBEB /* Assets.xcassets */; };
+		B9EA1E2E1DCCA23800FAEBEB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9EA1E2C1DCCA23800FAEBEB /* LaunchScreen.storyboard */; };
+		B9EA1E361DCCA2C300FAEBEB /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = B9EA1E351DCCA2C300FAEBEB /* Podfile */; };
+		B9EA1E391DCCA73900FAEBEB /* T21MaterialTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9EA1E381DCCA73900FAEBEB /* T21MaterialTextField.swift */; };
+		E8416A316D95A79D2DDED221 /* Pods_T21MaterialTextField.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 495F86A02697BE4E50FCEE44 /* Pods_T21MaterialTextField.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		495F86A02697BE4E50FCEE44 /* Pods_T21MaterialTextField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_T21MaterialTextField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FE80FC35D9F54D9A67C6456 /* Pods-T21MaterialTextField.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-T21MaterialTextField.debug.xcconfig"; path = "Pods/Target Support Files/Pods-T21MaterialTextField/Pods-T21MaterialTextField.debug.xcconfig"; sourceTree = "<group>"; };
+		79B7E30073A435604B9566B0 /* Pods-T21MaterialTextField.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-T21MaterialTextField.release.xcconfig"; path = "Pods/Target Support Files/Pods-T21MaterialTextField/Pods-T21MaterialTextField.release.xcconfig"; sourceTree = "<group>"; };
+		B9EA1E201DCCA23800FAEBEB /* T21MaterialTextField.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = T21MaterialTextField.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9EA1E231DCCA23800FAEBEB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B9EA1E251DCCA23800FAEBEB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B9EA1E281DCCA23800FAEBEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B9EA1E2A1DCCA23800FAEBEB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B9EA1E2D1DCCA23800FAEBEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B9EA1E2F1DCCA23800FAEBEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B9EA1E351DCCA2C300FAEBEB /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		B9EA1E381DCCA73900FAEBEB /* T21MaterialTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = T21MaterialTextField.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B9EA1E1D1DCCA23800FAEBEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8416A316D95A79D2DDED221 /* Pods_T21MaterialTextField.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5E637C46DDDA620FDD3BDBA2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				495F86A02697BE4E50FCEE44 /* Pods_T21MaterialTextField.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8255B56FC9B95D6CA65B24B4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6FE80FC35D9F54D9A67C6456 /* Pods-T21MaterialTextField.debug.xcconfig */,
+				79B7E30073A435604B9566B0 /* Pods-T21MaterialTextField.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B9EA1E171DCCA23800FAEBEB = {
+			isa = PBXGroup;
+			children = (
+				B9EA1E371DCCA70200FAEBEB /* src */,
+				B9EA1E351DCCA2C300FAEBEB /* Podfile */,
+				B9EA1E221DCCA23800FAEBEB /* T21MaterialTextField */,
+				B9EA1E211DCCA23800FAEBEB /* Products */,
+				8255B56FC9B95D6CA65B24B4 /* Pods */,
+				5E637C46DDDA620FDD3BDBA2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B9EA1E211DCCA23800FAEBEB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B9EA1E201DCCA23800FAEBEB /* T21MaterialTextField.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B9EA1E221DCCA23800FAEBEB /* T21MaterialTextField */ = {
+			isa = PBXGroup;
+			children = (
+				B9EA1E231DCCA23800FAEBEB /* AppDelegate.swift */,
+				B9EA1E251DCCA23800FAEBEB /* ViewController.swift */,
+				B9EA1E271DCCA23800FAEBEB /* Main.storyboard */,
+				B9EA1E2A1DCCA23800FAEBEB /* Assets.xcassets */,
+				B9EA1E2C1DCCA23800FAEBEB /* LaunchScreen.storyboard */,
+				B9EA1E2F1DCCA23800FAEBEB /* Info.plist */,
+			);
+			path = T21MaterialTextField;
+			sourceTree = "<group>";
+		};
+		B9EA1E371DCCA70200FAEBEB /* src */ = {
+			isa = PBXGroup;
+			children = (
+				B9EA1E381DCCA73900FAEBEB /* T21MaterialTextField.swift */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B9EA1E1F1DCCA23800FAEBEB /* T21MaterialTextField */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9EA1E321DCCA23800FAEBEB /* Build configuration list for PBXNativeTarget "T21MaterialTextField" */;
+			buildPhases = (
+				E5449B93C361D888EED24B34 /* [CP] Check Pods Manifest.lock */,
+				B9EA1E1C1DCCA23800FAEBEB /* Sources */,
+				B9EA1E1D1DCCA23800FAEBEB /* Frameworks */,
+				B9EA1E1E1DCCA23800FAEBEB /* Resources */,
+				E762700C059F121D7DF22452 /* [CP] Embed Pods Frameworks */,
+				D04F63DBA7807794F9EDCD56 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = T21MaterialTextField;
+			productName = T21MaterialTextField;
+			productReference = B9EA1E201DCCA23800FAEBEB /* T21MaterialTextField.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B9EA1E181DCCA23800FAEBEB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = Worldline;
+				TargetAttributes = {
+					B9EA1E1F1DCCA23800FAEBEB = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = C2UZU6ZLJE;
+						LastSwiftMigration = 0800;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = B9EA1E1B1DCCA23800FAEBEB /* Build configuration list for PBXProject "T21MaterialTextField" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B9EA1E171DCCA23800FAEBEB;
+			productRefGroup = B9EA1E211DCCA23800FAEBEB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B9EA1E1F1DCCA23800FAEBEB /* T21MaterialTextField */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B9EA1E1E1DCCA23800FAEBEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9EA1E2E1DCCA23800FAEBEB /* LaunchScreen.storyboard in Resources */,
+				B9EA1E2B1DCCA23800FAEBEB /* Assets.xcassets in Resources */,
+				B9EA1E361DCCA2C300FAEBEB /* Podfile in Resources */,
+				B9EA1E291DCCA23800FAEBEB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D04F63DBA7807794F9EDCD56 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-T21MaterialTextField/Pods-T21MaterialTextField-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E5449B93C361D888EED24B34 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E762700C059F121D7DF22452 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-T21MaterialTextField/Pods-T21MaterialTextField-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B9EA1E1C1DCCA23800FAEBEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9EA1E261DCCA23800FAEBEB /* ViewController.swift in Sources */,
+				B9EA1E391DCCA73900FAEBEB /* T21MaterialTextField.swift in Sources */,
+				B9EA1E241DCCA23800FAEBEB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B9EA1E271DCCA23800FAEBEB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B9EA1E281DCCA23800FAEBEB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B9EA1E2C1DCCA23800FAEBEB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B9EA1E2D1DCCA23800FAEBEB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B9EA1E301DCCA23800FAEBEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B9EA1E311DCCA23800FAEBEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B9EA1E331DCCA23800FAEBEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FE80FC35D9F54D9A67C6456 /* Pods-T21MaterialTextField.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = C2UZU6ZLJE;
+				INFOPLIST_FILE = T21MaterialTextField/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tempos21.T21MaterialTextField;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		B9EA1E341DCCA23800FAEBEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79B7E30073A435604B9566B0 /* Pods-T21MaterialTextField.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = C2UZU6ZLJE;
+				INFOPLIST_FILE = T21MaterialTextField/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tempos21.T21MaterialTextField;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B9EA1E1B1DCCA23800FAEBEB /* Build configuration list for PBXProject "T21MaterialTextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9EA1E301DCCA23800FAEBEB /* Debug */,
+				B9EA1E311DCCA23800FAEBEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B9EA1E321DCCA23800FAEBEB /* Build configuration list for PBXNativeTarget "T21MaterialTextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9EA1E331DCCA23800FAEBEB /* Debug */,
+				B9EA1E341DCCA23800FAEBEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B9EA1E181DCCA23800FAEBEB /* Project object */;
+}
