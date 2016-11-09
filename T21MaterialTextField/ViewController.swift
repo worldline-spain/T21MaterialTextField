@@ -21,11 +21,15 @@ class ViewController: UIViewController {
         textFieldA?.hintText = "Hint text A"
         textFieldA?.errorHintText = "Error hint text A"
         textFieldA?.placeholder = "Placeholer text A"
+        textFieldA?.dividerErrorColor = UIColor.yellow;
+
         
         textFieldB?.feedbackStatus = .None
         textFieldB?.hintText = "Hint text A"
         textFieldB?.errorHintText = "Error hint text A"
         textFieldB?.placeholder = "Placeholer text A"
+        textFieldB?.hintTextNormalColor = UIColor.brown;
+        textFieldB?.hintTextActiveColor = UIColor.cyan;
     }
 
     override func didReceiveMemoryWarning() {

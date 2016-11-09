@@ -171,20 +171,27 @@ import Material
     }
     
     @objc
-    open override func handleEditingDidBegin() {
-        super.handleEditingDidBegin()
-        refreshDividerColor()
-        refreshDetailLabelColor()
-        refreshDetailLabelText()
+    open override func prepare() {
+        super.prepare();
+        addTarget(self, action: #selector(executeEditingDidBegin), for: .editingDidBegin)
+        addTarget(self, action: #selector(executeEditingDidEnd), for: .editingDidEnd)
     }
     
     @objc
-    open override func handleEditingDidEnd() {
-        super.handleEditingDidEnd()
-        refreshDividerColor()
-        refreshDetailLabelColor()
-        refreshDetailLabelText()
+    open func executeEditingDidBegin() {
+        DispatchQueue.main.async {
+            self.refreshDividerColor()
+            self.refreshDetailLabelColor()
+            self.refreshDetailLabelText()
+        }
     }
     
-    
+    @objc
+    open func executeEditingDidEnd() {
+        DispatchQueue.main.async {
+            self.refreshDividerColor()
+            self.refreshDetailLabelColor()
+            self.refreshDetailLabelText()
+        }
+    }
 }
