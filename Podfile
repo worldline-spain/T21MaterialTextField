@@ -1,6 +1,5 @@
 #sources
 source 'https://github.com/CocoaPods/Specs.git'
-source 'https://vcs1.tempos21.com/scm/git/t21_pods_ios'
 
 workspace 'T21MaterialTextField'
 project 'T21MaterialTextField'
