@@ -94,7 +94,7 @@ import Material
             switch value {
             case .Active:
                 self.isEnabled = true
-                self.becomeFirstResponder()
+                _ = self.becomeFirstResponder()
             case .Enabled:
                 self.isEnabled = true
             case .Disabled:
