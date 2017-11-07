@@ -11,6 +11,6 @@ Pod::Spec.new do |s|
   s.source_files  = "Classes", "src/**/*.{swift}"
   s.framework  = "UIKit"
   s.requires_arc = true
-  s.dependency "Material" , "~>2.0"
+  s.dependency "Material" , "~>2.12"
 
 end
